@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<title>Asia Kitchen 福临门</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h9 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url("https://linuxise.engr.utk.edu/ie421/cchen99/images/AK1.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-middle w3-jumbo">
+    <p> <strong>Asia Kitchen 福临门</strong> </p>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-yellow">menu</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-yellow">contact</button></p>
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    <p class="w3-xlarge">Monday, Wednesday - Sunday: 11am-10pm <br> Tuesaday Closed</p>
+    <p class="w3-large">8911 Kingston Pike, Knoxville, TN 37919</p>
+    <p class="w3-large">Tel: 869-670-9898 </p>
+    <p>powered by <a href="https://www.facebook.com/pages/Asia-Kitchen/229107247114680" >Asia Kitchen</a></p>
+    
+  </div>
+</div>
+
+<!-- Menu Modal -->
+<div id="menu" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-orange w3-display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      
+      <h1>头抬 APPETIZERS</h1>
+    </div>
+    <div class="w3-container">
+      <h9>素菜春卷 Veg. Spring Rolls (2 pieces)<b> $2.79 </b></h9>
+      <h9>猪肉春卷 Pork Egg Rolls (2 pieces)  <b> $2.99 </b></h9>
+      <h9>越式虾卷 Shrimp Summer Rolls(2 pieces) <b>$4.29</b></h9>
+      <h9>起司云吞 Crabmeat Cheese Wonton(6 pieces) <b>$4.59</b></h9>
+      <h9>猪肉煎饺 Fried Dumping (Gyuza) (6 pieces) <b>$4.29</b></h9>
+      <h9>蜜汁叉烧 Sliced Roasted Pork w. Honey Sauce <b>$7.29</b></h9>
+      <h9>凉拌耳丝 Shredded Pork Ears w. Sesame Oil <b>$7.29</b></h9>
+      <h9>红油抄手 Wonton w. Hot Chili Sauce <b>$4.99</b></h9>
+      <h9>红油肚丁 Diced Pork Stomach w. Hot Chili Sauce <b>$7.29</b></h9>
+      <h9>蒜泥白肉 Sliced Pork Belly w. Hot Garlic Sauce <b>$7.99</b></h9>
+      <h9>麻辣牛筋 Beef Tendon w. Hot Chili Sauce<b>$8.99</b></h9>
+    </div>
+
+    <div class="w3-container w3-blue">
+      <h1>汤 SOUP</h1>
+    </div>
+    <div class="w3-container">
+      <h9>蛋花汤 Egg Drop Soup <b>(S) $1.99</b><b>(L) $3.99 </b></h9>
+      <h9>云吞汤 Wonton Soup <b>(S) $1.99</b><b>(L) $3.99 </b></h9>
+      <h9>酸辣汤 Hot Sour Soup <b>(S) $1.99</b><b>(L) $3.99 </b></h9>
+      <h9>云吞蛋花汤 Wonton w. Egg Drop Soup <b>(S) $3.49</b><b>(L) $5.99 </b></h9>
+      <h9>西湖牛肉羹 Minced beef w. Cilantro Soup <b>(S)$6.99 (M) $9.99 (L) $12.99 </b></h9>
+      <h9>杂菜肉丝汤 Shredded pork w. Mixed Veggies Soup <b>(S)$5.99 (M) $7.99 (L) $10.99 </b></h9>
+      <h9>杂菜豆腐汤 Soft Tofu w. Mixed Veggies Soup <b>(S)$5.99 (M) $7.99 (L) $10.99 </b></h9>
+      <h9>蟹肉鱼肚羹 Crabmeat w. Fish-Maw Soup <b>(S)$8.99 (M) $12.99 (L) $15.99 </b></h9>
+      <h9>蟹肉玉米羹 Crabmeat w. Cream-Corn Soup <b>(S)$7.99 (M) $10.99 (L) $14.99 </b></h9>
+      <h9>榨菜肉丝汤 Shredded Pork w. Szechuan Mustard Soup <b>(S)$5.99 (M) $7.99 (L) $10.99 </b></h9>
+      <h9>番茄鸡蛋汤 Tomato w. Egg Drop Soup <b>(S)$5.99 (M) $7.99 (L) $10.99 </b></h9>
+    </div>
+      
+    <div class="w3-container w3-yellow">
+      <h1>饭面类 RICE & NOODLE </h1>
+    </div>
+    <div class="w3-container">
+      <h3>炒饭 FRIED RICE</h3>
+      <h9>扬州炒饭 Yang-Chow Fried Rice <b>$10.99</b></h9>
+      <h9>咸鱼鸡粒炒饭 Shredded Chicken w. Salty Fish Fried Rice <b>$10.99</b></h9>
+      <h9>咸鱼腊味炒饭 Chinese Sausage w. Salty Fish Fried Rice <b>$11.99</b></h9>
+      <h9>咸鱼炒饭 Salty Fish Fried Rice <b>$13.99</b></h9>
+      <h9>鸡炒饭 Chicken Fried Rice <b>$8.99</b></h9>
+      <h9>叉烧炒饭 Roasted Fried Rice <b>$8.99</b></h9>
+      <h9>生炒牛肉饭 Beef  Fried Rice <b>$9.99</b></h9>
+      <h9>虾炒饭 Shrimp Fried Rice <b>$9.99</b></h9>
+      <h9>素菜炒饭 Vegetable Fried Rice <b>$7.99</b></h9>
+      <h9>本楼炒饭 House Special Fried Rice w. Chicken, Beef, Shrimp <b>$10.99</b></h9>
+
+      <h3>河粉 CHOW FUN</h3>
+      <h9>肉丝炒河粉  Shredded Pork Chow Fun <b>$10.99</b></h9>
+      <h9>鸡丝炒河粉  Shredded Chicken Chow Fun <b>$10.99</b></h9>
+      <h9>干炒牛河    Beef Chow Fun <b>$11.99</b></h9>
+      <h9>虾球炒河粉  Shrimp Chow Fun <b>$12.99</b></h9>
+      <h9>素菜炒河粉  Vegetable Chow Fun <b>$9.99</b></h9>
+      <h9>本楼炒河粉  House Special Chow Fun w. Chicken, Beef, Shrimp  <b>$13.99</b></h9>
+
+      <h3>两面黄 Pan-Fried Noodle </h3>
+      <h9>海鲜两面黄 Seafood Pan-fried Noodle <b>$14.99</b></h9>
+      <h9>牛肉两面黄 Beef Pan-fried Noodle <b>$12.99</b></h9>
+      <h9>虾球两面黄 Shrimp Pan-fried Noodle <b>$13.99</b></h9>
+      <h9>素菜两面黄 Vegetable Pan-fried Noodle <b>$11.99</b></h9>
+      <h9>本楼两面黄 House Pan-fried Noodle w. Chicken, Beef, Shrimp <b>$14.99</b></h9>
+    
+      <h3>米粉 Rice Noodle </h3>
+      <h9>火鸭米粉汤 Roasted Duck w. Rice Noodle Soup <b>$11.99</b></h9>
+      <h9>星洲炒米粉 Singapore Rice Noodle w. Chicken & Shrimp <b>$11.99</b></h9>
+      <h9>本楼炒米粉 House Special Rice Noodle w. Chicken, Beef, Shrimp <b>$11.99</b></h9>
+      <h9>鸡丝炒米粉 Shredded Chicken Rice Noodle <b>$9.99</b></h9>
+      <h9>肉丝炒米粉 Shredded Pork Rice Noodle <b>$9.99</b></h9>
+      <h9>素菜炒米粉 Vegetable Rice Noodle <b>$8.99</b></h9>
+      <h9>牛肉炒米粉 Beef Rice Noodle <b>$11.99</b></h9>
+      <h9>虾球炒米粉 Shrimp Rice Noodle <b>$11.99</b></h9>
+
+      <h3>捞面 Lo Mein </h3>
+      <h9>素菜捞面 Vegetable Lo Mein <b>$7.99</b></h9>
+      <h9>鸡肉捞面 Shredded Chicken Lo Mein <b>$8.99</b></h9>
+      <h9>叉烧捞面 Roasted pork Lo Mein <b>$8.99</b></h9>
+      <h9>牛肉捞面 Beef Lo Mein <b>$10.99</b></h9>
+      <h9>虾捞面   Shrimp Lo Mein <b>$10.99</b></h9>
+      <h9>本楼捞面 House Lo Mein w. Chicken, Beef, Shrimp <b>$10.99</b></h9>
+    </div>
+
+    <div class="w3-container w3-blue">
+      <h1>蔬菜&豆腐类 VEGETABLES & TOFU</h1>
+    </div>
+    <div class="w3-container">  
+      <h9>蒜蓉/蚝油唐芥蓝 Chinese Broccoli in Garlic or Oyster Sauce <b>$10.99</b></h9>
+      <h9>蒜蓉/蚝油西芥蓝 Broccoli in Garlic or Oyster Sauce <b>$9.99</b></h9>
+      <h9>蒜蓉/蚝油青岗菜 Baby Bok-Choy in Garlic or Oyster Sauce <b>$9.99</b></h9>
+      <h9>蒜片大白菜 Chinese Cabbage w. Garlic Slice <b>$8.99</b></h9>
+      <h9>开阳白菜 Stir-fried Shrimp w. Chinese Cabbage <b>$8.99</b></h9>
+      <h9>干煸四季豆 String Beans w. Ground Pork <b>$10.99</b></h9>
+      <h9>北菇扒菜胆 Black mushroom w. Bok-Choy in Oyster Sauce <b>$12.99</b></h9>
+      <h9>红烧豆腐 Braised Tofu w. Shredded Pork & Mixed Vegetables <b>$12.99</b></h9>
+      <h9>琵琶豆腐 Deep Fried Stuffed Tofu w. Minced Shrimp & Sausage <b>$15.99</b></h9>
+      <h9>家常豆腐 Bean Curd Home Style in Black Bean Sauce <b>$10.99</b></h9>
+      <h9>招牌豆腐 Soft Tofu w. Ground Pork in Black Bean Sauce <b>$10.99</b></h9>
+      <h9>素什锦 Vegetable Delight in Brown Sauce <b>$10.99</b></h9>
+      <h9>番茄炒蛋 Tomato w. Scramble Eggs <b>$8.99</b></h9>
+      <h9>醋溜土豆丝 Shredded Potato w. Vinegar Sauce <b>$8.99</b></h9>
+    </div>
+
+    <div class="w3-container w3-orange">
+      <h1>煲仔类 HOT POT </h1>
+    </div>
+    <div class="w3-container"> 
+      <h9>啫啫滑鸡煲 Sizzling Chicken in Clay Pot <b>$13.99</b></h9>
+      <h9>啫啫牛肉煲 Sizzling Sliced Beef in Clay Pot <b>$13.99</b></h9>
+      <h9>咸鱼鸡粒茄子煲 Chicken &Salty Fish w. Eggplant in Clay Pot <b>$14.99</b></h9>  
+      <h9>鱼香茄子煲 Eggplants & Ground Pork w. Garlic Sauce in Clay Pot <b>$12.99</b></h9> 
+      <h9>腐竹羊腩煲 Lamb Stewed w. Bean Stick on Fire Pot <b>$17.99</b></h9> 
+      <h9>萝卜牛腩煲 Beef Stewed w. Radish on Fire Pot <b>$16.99</b></h9> 
+      <h9>海鲜豆腐煲 Seafood w. Tofu in Clay Pot <b>$16.99</b></h9> 
+      <h9>班腩豆腐煲Braised Fish Filet w. Tofu in Clay Pot <b>$15.99</b></h9>
+    </div>
+
+    <div class="w3-container w3-yellow">
+      <h1>鸡和鸭 CHICKEN & DUCK </h1>
+    </div>
+    <div class="w3-container"> 
+      <h9>明炉烧鸭 Cantonese Style Roast Duck <b>$15.99</b></h9>
+      <h9>蒜香炸子鸡 Crispy Fried Chicken <b>$14.99</b></h9>
+      <h9>霸王鸡 Steamed Chicken w. Ginger Sauce <b>$11.99</b></h9>  
+      <h9>芝麻鸡 Sesame Chicken <b>$10.99</b></h9> 
+      <h9>咖喱鸡 Shredded Chicken In Curry Sauce <b>$10.99</b></h9> 
+      <h9>甜酸鸡 Fried Chicken Nuggets w. Sweet & Sour Sauce on Side <b>$9.99</b></h9> 
+      <h9>蘑菇鸡片 Moo Goo Gai Pan <b>$9.99</b></h9>
+      <h9>芥蓝鸡 Chicken w. Broccoli <b>$9.99</b></h9>
+      <h9>四季豆炒鸡片 Shredded Chicken w. String Green Bean <b>$10.99</b></h9>
+      <h9>豉汁炒鸡片 Shredded Chicken in Black Bean Sauce <b>$10.99</b></h9>
+      <h9>杂菜炒鸡片 Shredded Chicken w. Mixed Vegetables <b>$10.99</b></h9>
+    </div>
+
+    <div class="w3-container w3-purple">
+      <h1>海鲜类 SEAFOOD </h1>
+    </div>
+    <div class="w3-container"> 
+      <h9>椒盐有头虾 Salt & Pepper Deep-Fried Shrimp <b>$14.99</b></h9>
+      <h9>滑蛋虾仁 Shrimp w. Scramble Eggs <b>$12.99</b></h9>
+      <h9>虾龙糊 Shrimp w. Lobster Sauce <b>$11.99</b></h9>  
+      <h9>芥蓝虾球 Shrimp w. Broccoli <b>$11.99</b></h9> 
+      <h9>雪豆炒虾球 Shrimp w. Snow Peas <b>$11.99</b></h9> 
+      <h9>杂菜炒虾球 Shrimp w. Mix Vegetables <b>$11.99</b></h9> 
+      <h9>咖喱虾 Shrimp in Curry Sauce <b>$11.99</b></h9> 
+      <h9>虾球带子 Shrimp & Scallops w. Mixed Vegetables <b>$16.99</b></h9>
+      <h9>美极虾 Shrimp w. Magic Seasoning Sauce <b>$14.99</b></h9>
+      <h9>清炒鱼球 Stir Fried Fish Filet w. Mixed Vegetables <b>$14.99</b></h9>
+      <h9>椒盐鱼球 Salt & Pepper Fried Fish Filet <b>$14.99</b></h9>
+      <h9>豉汁炒鱼球 Fish Filet in Black Bean Sauce <b>$14.99</b></h9>
+      <h9>红烧鱼球 Braised Fish Filet w. Mixed Vegetables <b>$14.99</b></h9>
+      <h9>酸菜鱼 Fish Filet w. Pickled Mustard Green <b>$15.99</b></h9>
+      <h9>椒盐鱿鱼 Salt & Pepper Fried Squid <b>$14.99</b></h9>
+      <h9>豉汁鱿鱼 Squid in Black Bean Sauce <b>$14.99</b></h9>
+      <h9>海鲜大会 House Seafood Combination w. Mixed Vegetables <b>$16.99</b></h9>
+      <h9>清蒸鱼片 Steamed Fish Filet w. Chopped Scallions <b>$15.99</b></h9>
+      <h9>清蒸鲈鱼 Steamed Sea Bass w. Chopped Scallions  <b>$16.99</b></h9>
+      <h9>红烧鲈鱼 Light-Fried Sea Bass in Brown Sauce <b>$16.99</b></h9>
+      <h9>清蒸龙利鱼 Steamed Whole Flounder <b>Market Price</b></h9>
+     
+    </div>
+
+    <div class="w3-container w3-blue">
+      <h1>牛肉 BEEF </h1>
+    </div>
+    <div class="w3-container"> 
+      <h9>咖喱牛肉 Sliced Beef in Curry Sauce <b>$10.99</b></h9>
+      <h9>芥蓝牛肉 Sliced Beef w. Broccoli <b>$10.99</b></h9>
+      <h9>雪豆炒牛肉 Beef w. Snow Peas <b>$11.99</b></h9>  
+      <h9>青椒牛肉 Beef Steak w. Green Pepper <b>$11.99</b></h9> 
+      <h9>蘑菇牛 Beef w. Mushroom in Brown Sauce <b>$11.99</b></h9> 
+      <h9>杂菜牛 Beef w. Mixed Vegetables <b>$11.99</b></h9> 
+      <h9>家常牛肉 Home Style Beef <b>$11.99</b></h9> 
+      <h9>豆豉牛肉 Sliced Beef in Black Bean Sauce <b>$12.99</b></h9>
+      <h9>蚝油牛肉 Sliced Beef in Oyster Sauce <b>$12.99</b></h9>
+      <h9>唐芥蓝炒牛肉 Beef w. Chinese Broccoli <b>$12.99</b></h9>
+      <h9>四季豆炒牛肉 Beef w. Green Beans <b>$12.99</b></h9>
+      <h9>酸菜牛肉 Beef w. Pickled Mustard Green <b>$13.99</b></h9>
+      <h9>葱爆牛 Mongolian Beef <b>$13.99</b></h9>
+      <h9>笋尖牛肉丝 Shredded Beef w. Shredded Bamboo Shots <b>$14.99</b></h9>
+      <h9>孜然牛肉 Shredded Beef w. Cumin <b>$14.99</b></h9>
+      <h9>铁板黑椒牛柳 Sizzling Sliced Beef w. Black Pepper Sauce <b>$14.99</b></h9>
+    </div>
+
+
+    <div class="w3-container w3-green">
+      <h1>猪肉 PORK </h1>
+    </div>
+    <div class="w3-container"> 
+      <h9>京都肉排 Peking style Pork Chops <b>$14.99</b></h9>
+      <h9>椒盐肉排 Salt & Pepper Pork Chops <b>$14.99</b></h9>
+      <h9>麻香肉排 Fried Pork Chops w. Sesame Seed <b>$14.99</b></h9>  
+      <h9>甜酸猪扒 Sweet & Sour Pork Chops <b>$14.99</b></h9> 
+      <h9>京都排骨 Peking Style Spare Ribs <b>$14.99</b></h9> 
+      <h9>椒盐排骨 Salt & Pepper Fried Spare Ribs <b>$14.99</b></h9> 
+      <h9>麻香排骨 Fried Spare Ribs w. Sesame Seed <b>$14.99</b></h9> 
+      <h9>糖醋排骨 Spare Ribs w. Sweet & Sour Sauce <b>$14.99</b></h9>
+      <h9>豉汁蒸排骨 Steamed Pork Ribs in Black Bean Sauce <b>$15.99</b></h9>
+      <h9>咸肉小炒 Home Style Sliced Bacon w. Chinese Veggies <b>$14.99</b></h9>
+      <h9>梅菜扣肉 Steamed Pork w. Preserved Vegetables <b>$14.99</b></h9>
+      <h9>红烧肉 Red-Cooked Pork <b>$14.99</b></h9>
+      <h9>红烧圆蹄 Steamed Pork Hock in Soy Sauce <b>$16.99</b></h9>
+      <h9>中式腊味芥蓝 Stir Fried Chinese Broccoli & Sliced Chinese Sausage <b>$14.99</b></h9>
+      <h9>笋尖肉丝 Shredded Pork w. Shredded Bamboo Shots <b>$14.99</b></h9>
+      <h9>香干肉丝 Shredded Pork w. Preserved Bean Curd <b>$14.99</b></h9>
+      <h9>葱爆肉丝 Stir Fried Shredded Pork w. Green Onion <b>$14.99</b></h9> 
+      <h9>榨菜肉丝 Shredded Pork w. Pickled Mustard Green <b>$13.99</b></h9>
+      <h9>酸菜大肠 Stir Fried Pork Intestine w. Sour Mustard Green <b>$13.99</b></h9>
+      <h9>椒盐大肠 Salt & Pepper Deep Fried Pork Intestine <b> $13.99</b></h9>
+      
+    </div>
+    
+    <div class="w3-container w3-red">
+        <h1>香辣味 HOT & SPICY <img src="https://linuxise.engr.utk.edu/ie421/cchen99/images/JP.png" style="width:9%"> </h1>
+    </div>
+    <div class="w3-container"> 
+      <h9>香辣土豆丝 Shredded Potato w. Red Chili Pepper <b>$9.99</b></h9>
+      <h9>火炝青冈菜 Stir Fried Chinese Bok Choy w. Red Pepper <b>$9.99</b></h9>
+      <h9>蚂蚁上树 Sautéed Thin Noodles w. Spicy Minced Pork <b>$9.99</b></h9>  
+      <h9>麻婆豆腐 Ma-Po Tofu w. Ground Pork <b>$10.99</b></h9> 
+      <h9>左宗豆腐 General Tao’s Tofu <b>$10.99</b></h9> 
+      <h9>干锅花菜 Stir fried Cauliflower on Fire Pot <b>$12.99</b></h9> 
+      <h9>干锅藕片 Stir fried Sliced Lotus Roots on Fire Pot <b>$12.99</b></h9> 
+      <h9>干锅包菜 Stir fried Chinese Cabbage on Fire Pot <b>$12.99</b></h9>
+      <h9>尖椒鸭舌 Duck Tongue w. Spicy Jalapeno Pepper <b>$17.99</b></h9>
+
+      <h9>回锅肉 Twice Cooked Pork <b>$13.99</b></h9>
+      <h9>鱼香肉丝 Shredded Pork in Garlic Sauce <b>$12.99</b></h9>
+      <h9>香辣肉排 Chili Pepper Pork Chops <b>$14.99</b></h9>
+      <h9>香辣排骨 Chili Pepper Spare Ribs <b>$14.99</b></h9>
+      <h9>泡椒肉丝 Shredded Pork w. Preserved Chili <b>$13.99</b></h9>
+      <h9>干煸肥肠 Pan Fried Pork Intestine w. Red Pepper <b>$13.99</b></h9>
+      <h9>尖椒肥肠 Pork Intestine w. Spicy Jalapeno Pepper <b>$13.99</b></h9>
+      <h9>干锅肥肠 Deep Fried Pork Intestine on Fire Pot <b>$14.99</b></h9>
+      <h9>五更肠旺 Pork Intestine w. Sour Mustard Green on Fire Pot <b>$14.99</b></h9>
+
+      <h9>风味辣子鸡丁 Diced Chicken w. Red Chili Pepper <b> $12.99</b></h9>
+      <h9>左宗鸡 General Tao’s Chicken <b>$10.99</b></h9>
+      <h9>陈皮鸡 Orange Chicken <b>$10.99</b></h9>
+      <h9>四川鸡 Szechuan Chicken <b>$10.99</b></h9>
+      <h9>宫保鸡 Kung Pao Chicken <b>$10.99</b></h9>
+      <h9>鱼香鸡 Shredded Chicken w. Spicy Garlic Sauce <b>$10.99</b></h9>
+      <h9>辣子鸡 Chili Pepper Chicken <b>$11.99</b></h9>
+      <h9>口水鸡 Steamed Bone-in Chicken w. Chili Pepper Gravy <b>$12.99</b></h9>
+
+      <h9>香辣鱼片肥肠锅 Fish Filet & Pork Intestine w. Hot Chili Pepper Gravy <b> $16.99</b></h9>
+      <h9>香辣鱼片锅 Fish Filet w. Hot Chili Pepper Gravy in Clay Pot <b>$15.99</b></h9>
+      <h9>香辣豆腐鱼 Fish Filet & Soft Tofu in Hot Chili Gravy <b>$15.99</b></h9>
+      <h9>干锅鱼片 Spicy Fish Filet on Fire pot  <b>$14.99</b></h9>
+      <h9>剁椒鱼片 Fish Filet w. Hunan Chopped Chili <b>$14.99</b></h9>
+      <h9>红油鱼片 Fish Filet in Hot Chili Oil <b>$14.99</b></h9>
+      <h9>水煮鱼 Fish Filet in Szechuan Pepper Sauce <b>$15.99</b></h9>
+
+      <h9>水煮牛肉 Beef in Szechuan Pepper Sauce <b>$15.99</b></h9> 
+      <h9>四川牛 Szechuan Beef <b>$11.99</b></h9>
+      <h9>湖南牛 Hunan Beef <b>$11.99</b></h9>
+      <h9>陈皮牛 Orange Beef <b>$12.99</b></h9>
+      <h9>尖椒牛肉 Sliced Beef w. Spicy Jalapeno Pepper <b>$13.99</b></h9>
+      <h9>五更牛腩 Beef Flank w. Sour Mustard Green on Fire Pot <b>$14.99</b></h9>
+      <h9>夫妻肺片 Beef Shank & Tripe w. Hot Chili Sauce <b>$14.99</b></h9>
+      <h9>麻辣牛腱 Beef Shank in Hot Chili Sauce <b>$14.99</b></h9>
+      <h9>小椒牛肉丝 Shredded Beef w. Leek and Thai Chili <b>$14.99</b></h9>
+      <h9>麻辣香锅  House Special Hot Spicy Stir-Fry Pot <b>$18.99</b></h9>
+
+      <h9>宫保虾 Kung Pao Shrimp <b>$12.99</b></h9>
+      <h9>湖南虾 Hunan Shrimp <b>$12.99</b></h9>
+      <h9>鱼香虾 Spicy Garlic Shrimp <b>$12.99</b></h9>
+      <h9>四川虾 Szechuan Shrimp <b>$12.99</b></h9>
+    </div>
+    
+    <div class="w3-container w3-orange">
+        <h1>越南粿粉 PHO </h1>
+    </div>
+    <div class="w3-container"> 
+      <h9>1. Pho Tai  生鲜牛肉 Eye-round Steak  <b>$8.25</b> </h9>
+      <h9>2. Pho Tai. Nam 生鲜牛肉，熟牛腩 Steak, Beef Shank <b>$8.25</b></h9>
+      <h9>3. Pho Tai. Bo Viem 生鲜牛肉，牛肉丸 Steak, Meat Ball <b>$8.25</b></h9>  
+      <h9>4. Pho Tai. Nam. Sach 生鲜牛肉，熟牛肉，牛百叶 Steak, Well-done Steak, Tripe <b>$8.25</b></h9> 
+      <h9>9. Pho Tai. Nam. Gan 生鲜牛肉，熟牛肉，牛筋 Steak, Beef Shank, Beef Tendon <b>$8.25</b></h9> 
+      <h9>6. Pho Tai. Nam. Sach. Gan. Bo Viem 火车头 Steak, Beef Shank, Beef Tendon, Meat Ball, Tripe <b>$9.25</b></h9> 
+      <h9>7. Pho Ga 鸡肉 Chicken <b>$8.25</b></h9> 
+      <h9>8. Pho Tom 大虾  Shrimp <b>$9.25</b></h9>
+      <h9>9. Pho Seafood Combo 海鲜三样 Shrimp, Squid, Scallops <b>$13.25</b></h9>
+      <h9>10. House Special Combo 本楼三拼 Shrimp, Chicken, Beef <b>$13.25</b></h9>
+      <h9>11. Pho Chay 蔬菜 Vegetables <b>$8.25</b></h9>
+    </div>
+
+    <div class="w3-container w3-yellow">
+        <h1>铁板烧 HIBACHI </h1>
+         <h9> w. Fried Rice & Soup (Hot & Sour/ Egg Drop/Wonton) or Spring/Egg Roll </h9>
+    </div>
+    <div class="w3-container"> 
+      <h9>1. 蔬菜 Hibachi Vegetable  <b>$9.25</b> </h9>
+      <h9>2. 鸡肉 Hibachi Chicken <b>$13.25</b> </h9>
+      <h9>3. 大虾 Hibachi Shrimp <b>$14.25</b> </h9>  
+      <h9>4. 牛肉 Hibachi Steak <b>$17.25</b> </h9> 
+      <h9>9. 鸡和虾 Hibachi Chicken & Shrimp   <b>$14.23</b> </h9> 
+      <h9>6. 牛和鸡 Hibachi Steak & Chicken <b>$15.25</b> </h9> 
+      <h9>7. 牛和虾 Hibachi Steak & Shrimp <b>$17.25</b> </h9> 
+      <h9>8. 牛和干贝 Hibachi Steak & Scallop <b>$17.25</b></h9>
+      <h9>9. 虾和干贝 Hibachi Shrimp & Scallop <b>$17.25</b></h9>
+    </div>
+
+    <div class="w3-container w3-red">
+        <h1>Beverage 饮料 </h1>
+    </div>
+    <div class="w3-container"> 
+      <h9> Toppings: Bubble, Fruit Jelly, Pop Boba ($0.29 for each and can be added to any drink) </h9>
+      <h3> Bubble Tea <b> (M: $3.25 L: $3.75) </b></h3>
+      <h9> Original Milk Tea（原味奶茶) </h9>
+      <h9> Jasmine Green Tea （茉香）</h9>
+      <h9> Taro Milk Tea（芋香）</h9>
+      <h9> Mango Milk Tea（芒果）</h9>
+      <h9> Strawberry Milk Tea（草莓）</h9>
+      <h9> Papaya Milk Tea（木瓜）</h9>
+      <h9> Banana Milk Tea（香蕉）</h9>
+      <h9> Cappuccino Milk Tea（卡布奇诺）</h9>
+      <h9> Coffee Milk Tea（咖啡）</h9>
+      <h9> Vanilla Milk Tea（香草）</h9>
+      <h9> Honeydew Milk Tea（哈密瓜）</h9>
+      <h9> Coconut Milk Tea（椰子）</h9>
+      <h9> Thai Tea （泰国奶茶）</h9>
+
+      <h3> Smoothie <b> (M: $3.25 L: $3.75) </b></h3>
+      <h9> Mango（芒果) </h9>
+      <h9> Strawberry（草莓）</h9>
+      <h9> Peach（蜜桃）</h9>
+      <h9> Watermelon（西瓜）</h9>
+
+      <h3> Coffee & Cappuccino  <b> (M: $3.25 L: $3.75) </b></h3>
+      <h9> Ice Coffee </h9>
+      <h9> Hot Coffee </h9>
+      <h9> Ice Cappuccino </h9>
+      <h9> Hot Cappuccino </h9>
+
+      <h3> Drinks  <b> $1.79 </b></h3>
+      <h9> Coke/Diet Coke/Sprite/Dr. Pepper/Lemonade </h9>
+      <h9> Sweet/Unsweetened Tea </h9>
+      <h9> Hot Tea: Green/Wulong/Jasmine </h9>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Contact Us</h1>
+    </div>
+    <div class="w3-container">
+  
+        <p class="w3-large"> Phone Number: 869-670-9898 </p>
+        <p class="w3-large"> Fax Number: 869-670-9898 </p>
+        
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3230.992041627189!2d-84.0660088498939!3d39.92269482420271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889c2921e993deb1%3A0x1c126bffb8470093!2sAsia+Kitchen!9e0!3m2!1szh-CN!2sus!4v1924099138881" width="600" height="490" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
+
